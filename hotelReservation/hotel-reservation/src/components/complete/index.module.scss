@@ -1,0 +1,275 @@
+.container{
+    padding-top: 2%;
+    padding-left: 15%;
+    .FirstPart{
+        border: solid 1px lightgrey;
+        padding-top: 2%;
+        width: 80%;
+        height: 300px;
+        .CompleteImage{
+            margin-left: 45%;
+            width: 100px;
+        }
+        .FirstLine{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: 39%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        .SecondLine{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            text-align: center;
+        }
+        .Buttons{
+            display: flex;
+            flex-direction: row;
+            margin-left: 22%;
+            padding-top: 2%;
+            .Button{
+                float: right;
+                width: 180px;
+                height: 40px;
+                background-color: #03254c;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                color: white;
+                margin-right: 1%;   
+            }
+        }
+    }
+    .SecondPart{
+        width: 76%;
+        height: auto;
+        background-color: lightgrey;
+        border-radius: 10px;
+        margin-top: 2%;
+        padding-top: 4%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 4%;
+        .NameAndCity{
+            display: flex;
+            flex-direction: row;
+            .Name{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .City{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+            }
+        }
+        .Dates{
+            display: flex;
+            flex-direction: row;
+            .StartDateBox{
+                width: 450px;
+                height: 60px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 10%;
+                margin-right: 5%;
+                text-align: center;
+                padding-top: 2%;
+                .GirisTarihi{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                }
+                .StartDate{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+            .EndDateBox{
+                width: 450px;
+                height: 60px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 10%;
+                text-align: center;
+                padding-top: 2%;
+                .CikisTarihi{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                }
+                .EndDate{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+        .Sizes{
+            display: flex;
+            flex-direction: row;
+            .AdultSizeBox{
+                width: 450px;
+                height: 60px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 2%;
+                margin-right: 5%;
+                text-align: center;
+                padding-top: 2%;
+                .Yetiskin{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                }
+                .AdultSize{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+            .ChildSizeBox{
+                width: 450px;
+                height: 60px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 2%;
+                text-align: center;
+                padding-top: 2%;
+                .Cocuk{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                }
+                .ChildSize{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+        .RoomFeatures{
+            display: flex;
+            flex-direction: row;
+            .RoomTypeBox{
+                width: 450px;
+                height: 60px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 2%;
+                margin-right: 5%;
+                text-align: center;
+                padding-top: 2%;
+                .OdaTipi{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                }
+                .RoomType{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+            .LandscapeBox{
+                width: 450px;
+                height: 60px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 2%;
+                text-align: center;
+                padding-top: 2%;
+                .Manzara{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                }
+                .Landscape{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+        .PriceDetailsBox{
+            width: 100%;
+            height: auto;
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 2%;
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            .RoomPriceLine{
+                display: flex;
+                flex-direction: row;
+                padding-left: 6%;
+                .OdaFiyati{
+                    float: left;
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .RoomPrice{
+                    margin-left: 75%;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+            .PriceRateLine{
+                display: flex;
+                flex-direction: row;
+                padding-left: 6%;
+                margin-top: 3%;
+                .FiyatEtkiOranı{
+                    float: left;
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                    
+                }
+                .PriceRate{
+                    margin-left: 72%;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+            .AccommodationLine{
+                display: flex;
+                flex-direction: row;
+                padding-left: 6%;
+                margin-top: 3%;
+                .Konaklama{
+                    float: left;
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                    
+                }
+                .Days{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .TotalPrice{
+                    margin-left: 65%;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+            .CouponLine{
+                display: flex;
+                flex-direction: row;
+                padding-left: 6%;
+                margin-top: 3%;
+                .Indirim{
+                    float: left;
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                    
+                }
+                .CouponCode{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .Discount{
+                    margin-left: 70%;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+        .TotalPriceBox{
+            width: 100%;
+            height: auto;
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 2%;
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            .ToplamTutar{
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+            }
+            .TotalPrice{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+            }
+        }
+    }
+}

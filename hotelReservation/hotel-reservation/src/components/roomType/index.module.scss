@@ -1,0 +1,121 @@
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    .HotelInfo{
+        background-color: lightgrey;
+        border-radius: 10px;
+        height: 90px;
+        margin-left: 2%;
+        padding-top: 2.5%;
+        padding-left: 2%;
+        .FirstLine{
+            display: flex;
+            flex-direction: row;
+            .Name{
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+            }
+            .City{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                margin-left: 1%;
+            }
+        }
+        .SecondLine{
+            display: flex;
+            flex-direction: row;
+            margin-top: 1.5%;
+            .GirisTarihi{
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+            }
+            .StartDate{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                margin-right: 1%;
+            }
+        }
+    }
+    .RoomType{
+        height: auto;
+        margin-left: 2%;
+        margin-top: 5%;
+        .OdaTipiSecimi{
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        .Line{
+            height: 1px;
+            background-color: lightgrey;
+            margin-top: 1%;
+        }
+        .Types{
+            display: flex;
+            flex-direction: row;
+            .Label{
+                margin-left: 4%;
+                margin-top: 2%;
+                width: 250px;
+                height: 250px;
+                padding-left: 4%;
+                padding-top: 2%;
+                border-radius: 10px;
+                .TypeImage{
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+        }
+        .Scenic{
+            display: flex;
+            flex-direction: row;
+            .Label{
+                margin-left: 4%;
+                margin-top: 2%;
+                width: 250px;
+                height: 250px;
+                padding-left: 4%;
+                padding-top: 2%;
+                border-radius: 10px;
+                .TypeImage{
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+    .Buttons{
+        background-color: lightgrey;
+        border-radius: 10px;
+        height: 90px;
+        padding-top: 4%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 5%;
+        margin-top: 2%;
+        .Back{
+            float: left;
+            width: 180px;
+            height: 40px;
+            background-color: #03254c;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: white;
+        }
+        .SaveAndContinue{
+            float: right;
+            width: 180px;
+            height: 40px;
+            background-color: #03254c;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: white;
+        }
+    }    
+}
